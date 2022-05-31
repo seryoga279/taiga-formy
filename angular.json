@@ -3,5 +3,29 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "@ngx-formly/taiga": {
+      "projectType": "library",
+      "root": "projects/formly-taiga",
+      "sourceRoot": "projects/formly-taiga/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/formly-taiga/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/formly-taiga/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/formly-taiga/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        }
+      }
+    }
+  },
+  "defaultProject": "formly-taiga"
 }

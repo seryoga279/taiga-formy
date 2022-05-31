@@ -7,6 +7,13 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,
+    "paths": {
+      "formly-taiga": [
+        "dist/formly-taiga/formly-taiga",
+        "dist/formly-taiga"
+      ],
+      "@ngx-formly/*": ["projects/formly-taiga/src/public_api"]
+    },
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
