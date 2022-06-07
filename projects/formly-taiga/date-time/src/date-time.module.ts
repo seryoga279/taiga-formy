@@ -8,7 +8,7 @@ import { TuiDropdownControllerModule, TuiHintControllerModule, TuiTextfieldContr
 
 @NgModule({
     declarations: [
-        DateTimeComponent
+        DateTimeComponent,
     ],
     imports: [
         CommonModule,

@@ -29,7 +29,7 @@ import { DEFAULT_MAX_HEIGHT, DEFAULT_MIN_HEIGHT } from "@taiga-ui/core";
           [tuiDropdownSided]="to.tuiDropdownSided || false"
           [tuiDropdownLimitWidth]="to.tuiDropdownLimitWidth || 'auto'"
           [tuiDropdownMinHeight]="tuiDropdownMinHeight"
-          [tuiDropdownMaxHeight]="tuiDropdownMaxHeight"
+          [tuiDropdownMaxHeight]="tuiDropdownMaxHeight"§
           [tuiHintContent]="to.tuiHintContent || null"
           [tuiHintDirection]="to.tuiHintDirection || 'bottom-left'"
           [tuiHintMode]="to.tuiHintMode || null"

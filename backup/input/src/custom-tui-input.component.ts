@@ -36,7 +36,6 @@ import { TuiInputCountOptions, TUI_INPUT_COUNT_OPTIONS, TUI_INPUT_PROVIDERS } fr
                 [canOpen]="canOpen"
                 [content]="datalist || ''"
                 [(open)]="open"
-                (tuiActiveZoneChange)="onActiveZone($event)"
         >
             <tui-primitive-textfield
                     automation-id="tui-input__textfield"
